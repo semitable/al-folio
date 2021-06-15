@@ -8,11 +8,11 @@ middle_name: null
 last_name: Christianos 
 email: filippos.christianos@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Personal website of Filippos Christianos.
 footer_text: 
 
 icon: 🔥 # the emoji used as the favicon
-url:  # the base hostname & protocol for your site
+url: http://cobalt # the base hostname & protocol for your site
 baseurl: / # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -64,8 +64,8 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: my-blog  # your blog must have a name for it to show up in the nav bar
+blog_description: a collection of my posts
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -156,6 +156,9 @@ scholar:
   details_layout: bibtex.html
   details_link: Details
 
+  order: descending
+  sort_by: year
+
   query: "@*"
 
 # -----------------------------------------------------------------------------
@@ -169,7 +172,7 @@ enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
 enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the
+enable_navbar_social:       true  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
