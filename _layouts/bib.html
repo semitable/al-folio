@@ -86,8 +86,11 @@
     {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
     {% endif %}
+    {% if entry.openreview %}
+    <a href="{{ entry.openreview }}" class="btn btn-sm z-depth-0" role="button" target="_blank">OpenReview</a>
+    {% endif %}
     {% if entry.html %}
-      <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+      <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Paper</a>
     {% endif %}
     {% if entry.pdf %}
       {% if entry.pdf contains '://' %}

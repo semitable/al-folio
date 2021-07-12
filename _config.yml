@@ -148,7 +148,7 @@ github: [metadata]
 scholar:
 
   last_name: Christianos
-  first_name: [Filippos, F]
+  first_name: [Filippos, F, Filippos *]
 
   style: apa
   locale: en
