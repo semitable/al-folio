@@ -1,7 +1,7 @@
 ---
 layout: none
 title: Curated ML bibliography
-description: Curated ML .bib for LaTeX: Sanitize your bibliography with this tool
+description: "Curated ML .bib for LaTeX: Sanitize your bibliography with this tool"
 img:
 importance: 2
 redirect: https://github.com/semitable/cmlbib
