@@ -83,15 +83,16 @@
   abstract = {Reliable, non-intrusive, short-term (of up to 12 h ahead) prediction of a building's energy demand is a critical component of intelligent energy management applications. A number of such approaches have been proposed over time, utilizing various statistical and, more recently, machine learning techniques, such as decision trees, neural networks and support vector machines. Importantly, all of these works barely outperform simple seasonal auto-regressive integrated moving average models, while their complexity is significantly higher. In this work, we propose a novel low-complexity non-intrusive approach that improves the predictive accuracy of the state-of-the-art by up to ∼ 10 \% . The backbone of our approach is a K-nearest neighbours search method, that exploits the demand pattern of the most similar historical days, and incorporates appropriate time-series pre-processing and easing. In the context of this work, we evaluate our approach against state-of-the-art methods and provide insights on their performance.},
 }
 
-@online{papoudakis2021benchmarking,
-   title={Benchmarking Multi-Agent Deep Reinforcement Learning Algorithms in Cooperative Tasks},
+@inproceedings{papoudakis2021benchmarking,
+   title={Comparative Evaluation of Cooperative Multi-Agent Deep Reinforcement Learning Algorithms},
    author={Georgios * Papoudakis and Filippos * Christianos and Lukas Sch\"afer and Stefano V. Albrecht},
+   booktitle = {AAMAS Workshop on Adaptive and Learning Agents Workshop},
    year={2021},
+   abbr={ALA},
    eprint={2006.07869},
    archivePrefix={arXiv},
    primaryClass={cs.LG},
    url = {http://arxiv.org/abs/2006.07869},
-   abbr = {Preprint},
    abstract = {Multi-agent deep reinforcement learning (MARL) suffers from a lack of commonly-used evaluation tasks and criteria, making comparisons between approaches difficult. In this work, we evaluate and compare three different classes of MARL algorithms (independent learners, centralised training with decentralised execution, and value decomposition) in a diverse range of multi-agent learning tasks. Our results show that (1) algorithm performance depends strongly on environment properties and no algorithm learns efficiently across all learning tasks; (2) independent learners often achieve equal or better performance than more complex algorithms; (3) tested algorithms struggle to solve multi-agent tasks with sparse rewards. We report detailed empirical data, including a reliability analysis, and provide insights into the limitations of the tested algorithms.},
    eprinttype = {arxiv},
    selected = {true},
@@ -136,3 +137,11 @@
   booktitle = {Proceedings of the 38th International Conference on Machine Learning},
   abstract = {Ad hoc teamwork is the challenging problem of designing an autonomous agent which can adapt quickly to collaborate with previously unknown teammates. Prior work in this area has focused on closed teams in which the number of agents is fixed. In this work, we consider open teams by allowing agents of varying types to enter and leave the team without prior notification. Our solution builds on graph neural networks to learn agent models and joint action-value decompositions under varying team sizes, which can be trained with reinforcement learning using a discounted returns objective. We demonstrate empirically that our approach effectively models the impact of other agents actions on the controlled agent's returns to produce policies which can robustly adapt to dynamic team composition and is able to effectively generalize to larger teams than were seen during training.},
  }
+
+@inproceedings{schaefer2021decoupling,
+   title={Decoupling Exploration and Exploitation in Reinforcement Learning},
+   author={Lukas Schäfer and Filippos Christianos and Josiah Hanna and Stefano V. Albrecht},
+   booktitle={ICML Workshop on Unsupervised Reinforcement Learning},
+   year={2021},
+   abbr = {URL},
+}
