@@ -1,7 +1,7 @@
 ---
 layout: none
 title: Curated ML bibliography
-description: A multi-agent environment for RL
+description: Curated ML .bib for LaTeX: Sanitize your bibliography with this tool
 img:
 importance: 2
 redirect: https://github.com/semitable/cmlbib
